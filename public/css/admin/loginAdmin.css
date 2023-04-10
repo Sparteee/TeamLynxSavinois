@@ -1,0 +1,104 @@
+html{
+    height: 100vh;
+}
+body{
+    animation-name: fondu;
+    animation-duration: 1.5s;
+    /* font-family: 'Zilla Slab' sans-serif;*/
+    background-color: #eeeeee;
+    height: 100%;
+}
+@keyframes fondu {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-size: 48px;
+    color: black;
+    margin-bottom: 1rem;
+    font-family: 'Zilla Slab',serif;
+}
+
+
+.container{
+    height: 80vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+form{
+    padding: 2rem;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 1px 1px 23px 1px rgba(255,244,244,0);
+    box-shadow: 0px 10px 13px -7px #000000, 1px 1px 23px 1px rgba(255, 255, 255, 0);
+    background-color: #b2b2b2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem;
+    border-radius: 8px;
+}
+
+div>input{
+    display: block;
+    border-radius: 25px;
+    font-size:16px;
+    width: 300px;
+    height: 50px;
+    padding-left: 1rem;
+    border: none;
+    margin-left: 0.75rem;
+
+}
+
+label{
+    color: #000000;
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Zilla Slab',serif;;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+
+}
+
+form>input {
+    text-align: center;
+    margin: 2rem;
+    border: white 2px solid;
+    border-radius: 15px;
+    background: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+form>input:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    color: white;
+    font-family: 'Zilla Slab',serif;
+}
+
+p {
+    text-align: center;
+    color: red;
+
+
+}

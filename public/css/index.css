@@ -1,0 +1,140 @@
+html{
+    height: 100vh;
+    background: url("../images/imgIndex.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    /* font-family: 'Zilla Slab' sans-serif;*/
+    height: 100vh;
+}
+
+
+
+h1{
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-family: 'Stencil', sans-serif;
+    cursor: default;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /*background-color: #282828;*/
+    align-items: center;
+    top: 0;
+    padding: 0.5rem 1rem;
+
+}
+
+.nav{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.nav li a{
+    list-style: none;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-family: 'Exo2', sans-serif;
+    color: #b4b4be;
+    text-transform: uppercase;
+}
+
+
+.nav li a:hover{
+    border-bottom: 4px solid greenyellow;
+    color: greenyellow;
+
+}
+
+.nav li:hover{
+    animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@keyframes slide-top {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-5px);
+    }
+}
+
+
+.flex{
+    display: flex;
+}
+.overlay{
+    background: #000000;
+    opacity: .75;
+    height: inherit;
+}
+
+.logo-texte{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+
+
+}
+
+.logo-texte img{
+    height: 60%;
+    animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+
+}
+
+.logo-texte a{
+    display: flex;
+    margin-top: 2rem;
+    text-decoration: none;
+    border: 1px solid greenyellow;
+    padding: 1rem 2rem;
+    font-size: 18px;
+    line-height: 14px;
+    border-radius: 24px;
+    color: greenyellow;
+    font-family: 'Exo2', sans-serif;
+    text-transform: uppercase;
+}
+
+
+@keyframes tracking-in-expand-fwd {
+    0% {
+        letter-spacing: -0.5em;
+        transform: translateZ(-700px);
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        transform: translateZ(0);
+        opacity: 1;
+    }
+}
+
+.logo-texte a:hover{
+    animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+}
+
+.logo-texte>a>img{
+    width: 16px;
+    height: 16px;
+    margin-left: 0.5rem;
+}
