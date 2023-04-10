@@ -1,18 +1,6 @@
 <?php
 include "connexion.php";
 
-if(isset($_POST)){
-    if (!empty($_POST['contact']) && !empty($_POST['message'])){
-        $contact = htmlspecialchars($_POST['contact']);
-        $message = htmlspecialchars($_POST['message']);
-        $sqlinsert = "INSERT INTO contacts (contact , message) VALUES (:contact , :message)";
-        $resu = $connexion->prepare($sqlinsert);
-        $resu->bindValue(':contact' , $contact);
-        $resu->bindValue(':message' , $message);
-        $resu->execute();
-        $message = "Formulaire bien envoyé !";
-    }
-}
 ?>
 
 
