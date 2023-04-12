@@ -28,7 +28,7 @@
             <div class="flex">
                 <div class="logo-texte">
                     <img src="public/images/logo-modif.png" alt="Logo Team Lynx Savinois">
-                    <a href="association">Découvrir notre association <img src="https://img.icons8.com/91C643/ios_filled/2x/chevron-right.png" alt=""> </a>
+                    <a href="association.php">Découvrir notre association <img src="https://img.icons8.com/91C643/ios_filled/2x/chevron-right.png" alt=""> </a>
                 </div>
             </div>
         </div>
