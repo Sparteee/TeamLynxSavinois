@@ -7,7 +7,7 @@ Ce projet a été réalisé pour une association d'airsoft nommé Team Lynx Savi
 L'idée de ce projet était de m'entraîner au développement web tout en donnant un site à l'association. Il y a une première version du site, ce repository est la deuxième version.
 Pour faire le site, je me suis concerté avec le bureau de l'association et les membres pour récolter leurs idées et je me suis fait des tâches pour apprendre également l'organisation par tâche. Ce site est le fruit de toutes les idées proposés par les membres.
 
-Le site présente notre association, nos valeurs, notre terrain de jeu et envoie vers les endroits pour nous contacter si la personne est intéressé. 
+ - Le site présente notre association, nos valeurs, notre terrain de jeu et envoie vers les endroits pour nous contacter si la personne est intéressé. 
 Egalement le site possède un espace uniquement administrateur avec un formulaire de connexion privé à moi et à l'autre chargé de la communication qui permet de modifier les photos de la galerie plus simplement.
 
 ## Ajouts possibles
