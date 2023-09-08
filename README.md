@@ -18,7 +18,6 @@ Comme le projet est encore en cours de développement ces ajouts arriveront au f
   - Mise en place d'un module de participation dans l'espace des membres pour qu'il puisse indiquer leur participation aux parties où ils seront présents
   - Mise en place de l'espace admin pour pouvoir ajouter et retirer des informations à transmettre et ajouter le module de participation pour que tous les membres le voient
   - Mise en place d'un formulaire de contact directement sur le site pour aider les personnes n'ayant pas les réseaux sociaux où nous sommes présents
-  - Amélioration du certificat de sécurité ( Let's Encrypt actuellement) pour renforcer la sécurité du site et son utilisation
 
 ## Screenshots
 
