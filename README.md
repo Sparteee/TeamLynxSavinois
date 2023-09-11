@@ -18,6 +18,9 @@ Comme le projet est encore en cours de développement ces ajouts arriveront au f
   - Mise en place d'un module de participation dans l'espace des membres pour qu'il puisse indiquer leur participation aux parties où ils seront présents
   - Mise en place de l'espace admin pour pouvoir ajouter et retirer des informations à transmettre et ajouter le module de participation pour que tous les membres le voient
   - Mise en place d'un formulaire de contact directement sur le site pour aider les personnes n'ayant pas les réseaux sociaux où nous sommes présents
+  - Amélioration du site pour qu'il rentre dans les normes d'éco-conception (images au format webp, amélioration du code)
+  - Amélioration du site pour qu'il gagne en référencement
+  - Actualisation technique du site grâce à mes nouvelles connaissances/ nouvelles techniques de développement
 
 ## Screenshots
 
