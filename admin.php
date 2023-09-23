@@ -17,11 +17,8 @@ if(isset($_POST["delete"])){
 
 // Upload des photos dans la BDD et dans le dossier public/imagesPhotos
 if(isset($_POST["upload"])) {
-      //  var_dump($test);
-       //  var_dump($_FILES);
             $name = $_FILES['img']['name'];
             $taille = sizeof($name);
-
             for ($i = 0; $i < $taille; $i++) {
                 $photo = $name["$i"];
                 $dir = "/imagesPhotos/$photo";
