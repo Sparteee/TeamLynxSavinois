@@ -1,6 +1,6 @@
 <?php
 
-include "connexion.php";
+include "elements/connexion.php";
 session_start();
 
 // Vérification si l'utilisateur est connecté

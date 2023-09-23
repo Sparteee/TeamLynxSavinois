@@ -1,8 +1,3 @@
-<?php
-// var_dump($_SESSION);
-
-?>
-
 <!doctype html>
 <html lang="fr">
 <head>

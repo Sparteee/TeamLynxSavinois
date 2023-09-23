@@ -1,5 +1,5 @@
 <?php
-include "connexion.php";
+include "elements/connexion.php";
 
     // Requête pour récupérer les 20 dernières photos
     $sql = "SELECT * FROM image ORDER BY id DESC LIMIT 20";
