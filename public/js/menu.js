@@ -1,5 +1,3 @@
-document.addEventListener('DOMContentLoaded', menu) ;
-
 function menu() {
 
     // ** Détection de l'ouverture menu burger ** //
@@ -16,7 +14,5 @@ function menu() {
     let btnGaucheDroite = document.querySelector('.config');
     let ouvertureMenu = document.querySelector('#ouverture_menu');
     let fermetureMenu = document.querySelector('#fermeture_menu');
-
-
-
 }
+menu();

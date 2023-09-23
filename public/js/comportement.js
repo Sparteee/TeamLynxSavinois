@@ -1,7 +1,4 @@
-document.addEventListener('DOMContentLoaded', principale) ;
-
 function principale(){
-    console.log("je suis bien ready") 
     let cpt = 1;
      setInterval(function(){
         document.getElementById('radio' + cpt).checked = true;
@@ -28,9 +25,6 @@ function principale(){
     rad4.addEventListener('click' , () =>{
         cpt = 4;
     })
-
-
-
-  
-    
 }
+
+principale();

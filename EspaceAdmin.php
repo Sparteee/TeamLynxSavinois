@@ -9,11 +9,20 @@ if(isset($_POST['send'])){
             $pwd = htmlspecialchars($_POST['pwd']);
             $pwd = md5($pwd);
 
-            $sqllogin = "SELECT login FROM membres WHERE login = '{$login}'";
-            $sqlpwd = "SELECT password FROM membres WHERE password = '{$pwd}'";
+            $sqllogin = "SELECT login FROM membres WHERE login = ':login'";
+            $sqlpwd = "SELECT password FROM membres WHERE password = ':pwd'";
 
-            $resultatlogin = $connexion->query($sqllogin);
-            $resultatpwd = $connexion->query($sqlpwd);
+            $login = $connexion->prepare($sqllogin);
+            $pwd = $connexion->prepare($sqlpwd);
+
+            $login->bindParam(':login', $login);
+            $pwd->bindParam(':pwd', $pwd);
+
+            $login->execute();
+            $pwd->execute();
+
+            $resultatlogin = $login->fetch();
+            $resultatpwd = $pwd->fetch();
 
             if(!$resultatlogin->rowCount() == 0 AND !$resultatpwd->rowCount() == 0){
                 $sqlrole = "SELECT role FROM membres WHERE login = '{$login}'";

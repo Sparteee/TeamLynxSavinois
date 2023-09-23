@@ -1,10 +1,10 @@
 <?php
 include "connexion.php";
 
+    // Requête pour récupérer les 20 dernières photos
     $sql = "SELECT * FROM image ORDER BY id DESC LIMIT 20";
-$r = $connexion->query($sql);
+    $r = $connexion->query($sql);
     $resultat = $r->fetchAll();
-    //var_dump($resultat);
     if(empty($resultat)){
         $error = "Aucune photo pour le moment ! ";
     }
@@ -25,11 +25,10 @@ $r = $connexion->query($sql);
     <link rel="stylesheet" href="public/css/reset.css">
     <link rel="stylesheet" href="public/css/photo.css">
     <link rel="icon" type="image/png" href="public/images/logo-modif.png" />
-    <script src="public/js/menu.js"></script>
 </head>
 <body>
     <div class="overlay">
-    <?php  include "header.php"; ?>
+    <?php  include "elements/header.php"; ?>
                 <div class="texteDescriptif">
                     <h2>Quelques photos des dernières parties</h2>
                 </div>

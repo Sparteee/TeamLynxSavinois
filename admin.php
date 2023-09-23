@@ -3,16 +3,19 @@
 include "connexion.php";
 session_start();
 
-//var_dump($_SESSION["user"]);
+// Vérification si l'utilisateur est connecté
 if(!isset($_SESSION["user"])){
     header('location: index');
 }
 
+ // Supression des photos de la BDD
 if(isset($_POST["delete"])){
     $delete = "DELETE FROM image";
     $d = $connexion->exec($delete);
     header('Location: admin');
 }
+
+// Upload des photos dans la BDD et dans le dossier public/imagesPhotos
 if(isset($_POST["upload"])) {
       //  var_dump($test);
        //  var_dump($_FILES);
@@ -69,6 +72,6 @@ if(isset($_POST["upload"])) {
         </form>
     </div>
 </main>
-    <?php include "footer.php"; ?>
+    <?php include "elements/footer.php"; ?>
 </body>
 </html>

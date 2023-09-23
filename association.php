@@ -14,11 +14,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap" rel="stylesheet">
-    <script src="public/js/menu.js"></script>
 </head>
 <body>
         <div class="overlay">
-    <?php include "header.php" ?>
+    <?php include "elements/header.php" ?>
             <div class="containerAssociation">
                 <section class="textbox1">
                     <div class="texte1">
@@ -62,7 +61,7 @@
                     </div>
                 </section>
 
-                <?php include "footer.php" ?>
+                <?php include "elements/footer.php" ?>
             </div>
 
         </div>

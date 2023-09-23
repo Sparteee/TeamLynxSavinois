@@ -1,9 +1,3 @@
-<?php
-include "connexion.php";
-
-?>
-
-
 <!doctype html>
 <html lang="fr">
 <head>
@@ -20,12 +14,10 @@ include "connexion.php";
     <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <script src="public/js/menu.js"></script>
-    <script src="public/js/count_char.js"></script>
 </head>
 <body>
     <div class="overlay">
-        <?php include "header.php"?>
+        <?php include "elements/header.php" ?>
         <section class="containerContact">
             <section class="containerBureau">
                 <h2>BUREAU DE L'ASSOCIATION</h2>

@@ -20,11 +20,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap" rel="stylesheet">
-    <script src="public/js/comportement.js"></script>
+    <script src="public/js/comportement.js" defer></script>
 </head>
 <body>
         <div class="overlay">
-            <?php include "header.php"; ?>
+            <?php include "elements/header.php"; ?>
             <div class="flex">
                 <div class="logo-texte">
                     <img src="public/images/logo-modif.png" alt="Logo Team Lynx Savinois">
