@@ -14,7 +14,6 @@ Egalement le site possède un espace uniquement administrateur avec un formulair
 
 Comme le projet est encore en cours de développement ces ajouts arriveront au fur et à mesure : 
   - Responsive total du site - Priorité
-  - Test Git
   - Création d'un formulaire de connexion pour les licenciés de l'association pour qu'il est un espace pour chacun
   - Mise en place d'un module de participation dans l'espace des membres pour qu'il puisse indiquer leur participation aux parties où ils seront présents
   - Mise en place de l'espace admin pour pouvoir ajouter et retirer des informations à transmettre et ajouter le module de participation pour que tous les membres le voient
