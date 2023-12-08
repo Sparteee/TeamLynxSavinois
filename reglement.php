@@ -27,8 +27,9 @@
             </div>
 
             <div class="containerBox">
-                <img src="public/images/logo-modif.png" alt="Team Lynx Savinois Airsoft Saint Savinien">
-                <img src="public/images/logo_ffablanc.png" alt="Logo FFA Team Lynx Savinois">
+                <a href="https://teamlynxsavinois.fr" target="_blank"><img src="public/images/logo-modif.png" alt="Team Lynx Savinois Airsoft Saint Savinien"></a>
+                <a href="https://ffairsoft.org/" target="_blank"><img src="public/images/logo_ffablanc.png" alt="Logo FFA Team Lynx Savinois"></a>
+                <a href="https://www.lilifolies-airsoft.com/" target="_blank"><img src="https://www.lilifolies-airsoft.com/Files/26487/Img/09/CMJN-Lilifolies-logo-logo-2-compact-couleur-small.png" alt=""></a>
             </div>
         </div>
     </div>
